@@ -1,4 +1,5 @@
 package animateatlas;
+
 import flixel.util.FlxDestroyUtil;
 import openfl.geom.Rectangle;
 import flixel.math.FlxPoint;
@@ -17,7 +18,7 @@ import flixel.util.FlxColor;
 #if desktop
 import sys.FileSystem;
 import sys.io.File;
-#else
+#elseif js
 import js.html.FileSystem;
 import js.html.File;
 #end
@@ -25,7 +26,7 @@ import js.html.File;
 using StringTools;
 class AtlasFrameMaker extends FlxFramesCollection
 {
-	//public static var widthoffset:Int = 0;
+-	//public static var widthoffset:Int = 0;
 	//public static var heightoffset:Int = 0;
 	//public static var excludeArray:Array<String>;
 	/**

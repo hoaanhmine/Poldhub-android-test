@@ -26,7 +26,7 @@ import js.html.File;
 using StringTools;
 class AtlasFrameMaker extends FlxFramesCollection
 {
--	//public static var widthoffset:Int = 0;
+	//public static var widthoffset:Int = 0;
 	//public static var heightoffset:Int = 0;
 	//public static var excludeArray:Array<String>;
 	/**
